@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller / Nuitka / cx_Freeze build artifacts
+*.spec.bak
+build/
+dist/
+*.exe
+*.pyd
+*.dll
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.code-workspace
+
+# Model weights & caches (never commit these)
+models/weights/*.pth
+models/weights/*.onnx
+models/weights/*.engine
+models/weights/*.trt
+models/cache/
+.cache/
+huggingface/
+torch_hub/
+
+# Frame dump / scratch output
+out/
+frames_in/
+frames_out/
+*.mp4
+*.mov
+*.mkv
+*.png
+*.exr
+!docs/**/*.png
+
+# Logs
+logs/
+*.log
+*.pid
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets
+.env
+.env.local
+secrets.toml
