@@ -1,0 +1,1 @@
+"""Core engine: pure interpolation math with no IO or UI dependencies."""
