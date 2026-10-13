@@ -1,0 +1,1 @@
+"""Bootstrap layer: process entry points for the desktop app and CLI."""
