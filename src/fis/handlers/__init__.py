@@ -1,0 +1,1 @@
+"""Feature handlers: one module per user-facing operation."""
